@@ -45,10 +45,8 @@ h2 {
 
 }
   p{
-  width: 890px;
-  background-color: #AED6F1;
   padding: 0 70px 0px 70px;
-  border: 1px solid black;
+  border: 1px solid transparent;
   }
  .center {
   display: block;
@@ -59,15 +57,39 @@ h2 {
 .blackcolor {
 color: black;
 }
-.button {
+.whitecolor {
+color: white;
+}
+.button1 {
     display: block;
-    background: #4E9CAF;
+    background: #63aadf;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
     color: white;
     font-weight: bold;
 }
+.button2 {
+    display: block;
+    background: #66BABC;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+	border-color: #3a6c6d #66BABC;
+}
+.margin1{
+	margin-top: -25px;
+}
+.margin1 .button2 {
+    display: block;
+    background: #66BABC;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+	border-color: #3a6c6d #66BABC;
+    margin-top: -25px;
 }
 
   

@@ -49,7 +49,26 @@ div{
   text-align: center;
   	padding: 0 50px 0px 50px;
 }
-
+.button1 {
+	width: 50px;
+    display: block;
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+	border-color: #000000;
+}
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+.blackcolor {
+color: black;
+}
 
 
 

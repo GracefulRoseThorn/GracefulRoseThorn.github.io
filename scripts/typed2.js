@@ -1055,7 +1055,6 @@ return /******/ (function(modules) { // webpackBootstrap
 var typed = new Typed('#typed',{
                     stringsElement: '#typed-strings',
                     typeSpeed: 40
-					typeSize: 6rem;
 					
                   });
 				  

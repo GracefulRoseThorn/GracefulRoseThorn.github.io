@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var PORT = process.env.PORT || 8000;
+var port = process.env.PORT || 8000;
 // get an instance of router
 var router = express.Router();
 
@@ -72,6 +72,6 @@ app.get("/Cal", function(req, res){
 });
 
 //listener
-app.listen(PORT, function(){
+app.listen(port, function(){
 	console.log("App listening on PORT:" + PORT);
 });

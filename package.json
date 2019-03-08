@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "hellonode.js",
+  "url": "http://localhost:8000"
   "scripts": {
     "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\" --https"
   },

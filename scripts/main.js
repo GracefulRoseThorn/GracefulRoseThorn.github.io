@@ -4,7 +4,7 @@ var port = process.env.PORT || 8000;
 // get an instance of router
 var router = express.Router();
 
-// home page route (http://localhost:8080)
+// home page route (http://localhost:8000)
 router.get('/', function(req, res) {
     res.send('im the home page!');  
 });

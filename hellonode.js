@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var PORT = 8089;
+var PORT = process.env.PORT || 8000;
 // get an instance of router
 var router = express.Router();
 

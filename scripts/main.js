@@ -2,20 +2,15 @@ var express = require("express");
 var app = express();
 var port = process.env.PORT || 8000;
 // get an instance of router
-var router = express.Router();
+var router1 = express.Router();
 
 // home page route (http://localhost:8000)
-router.get('/', function(req, res) {
+router1.get('/', function(req, res) {
     res.send('im the home page!');  
 });
 
-// about page route (http://localhost:8080/about)
-router.get('/about', function(req, res) {
-    res.send('im the about page!'); 
-});
-
 // apply the routes to our application
-app.use('/', router);
+app.use('/', router1);
 
 //route('/filename'(css,js,etc...));
 //all the assigment is is to recreate your files to connect to your other files(express does this) you can choose what kind of files it links to.

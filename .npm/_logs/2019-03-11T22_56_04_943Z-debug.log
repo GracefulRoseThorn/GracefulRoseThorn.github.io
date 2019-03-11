@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express-generator',
+1 verbose cli   '-g' ]
+2 info using npm@6.4.1
+3 info using node@v10.15.2
+4 verbose npm-session 7158c973bc9cea7d
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/express-generator 401ms
+8 silly pacote tag manifest for express-generator@latest fetched in 623ms
+9 timing stage:loadCurrentTree Completed in 4746ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule express-generator@4.16.0 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/commander 143ms
+18 http fetch GET 200 https://registry.npmjs.org/minimatch 260ms
+19 http fetch GET 200 https://registry.npmjs.org/ejs 269ms
+20 http fetch GET 200 https://registry.npmjs.org/sorted-object 285ms
+21 http fetch GET 200 https://registry.npmjs.org/mkdirp 287ms
+22 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.13.0.tgz 142ms
+23 silly pacote version manifest for minimatch@3.0.4 fetched in 380ms
+24 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+25 silly pacote version manifest for sorted-object@2.0.1 fetched in 386ms
+26 silly resolveWithNewModule sorted-object@2.0.1 checking installable status
+27 silly pacote version manifest for commander@2.13.0 fetched in 399ms
+28 silly resolveWithNewModule commander@2.13.0 checking installable status
+29 http fetch GET 200 https://registry.npmjs.org/ejs/-/ejs-2.5.7.tgz 127ms
+30 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 111ms
+31 silly pacote version manifest for ejs@2.5.7 fetched in 440ms
+32 silly resolveWithNewModule ejs@2.5.7 checking installable status
+33 silly pacote version manifest for mkdirp@0.5.1 fetched in 442ms
+34 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+35 http fetch GET 200 https://registry.npmjs.org/brace-expansion 50ms
+36 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 65ms
+37 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+38 http fetch GET 200 https://registry.npmjs.org/concat-map 44ms
+39 http fetch GET 200 https://registry.npmjs.org/balanced-match 47ms
+40 silly pacote version manifest for concat-map@0.0.1 fetched in 59ms
+41 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+42 silly pacote range manifest for balanced-match@^1.0.0 fetched in 64ms
+43 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+44 http fetch GET 200 https://registry.npmjs.org/minimist 49ms
+45 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz 44ms
+46 silly pacote version manifest for minimist@0.0.8 fetched in 105ms
+47 silly resolveWithNewModule minimist@0.0.8 checking installable status
+48 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 725ms
+49 timing stage:loadIdealTree Completed in 737ms
+50 silly currentTree lib
+51 silly idealTree lib
+51 silly idealTree └─┬ express-generator@4.16.0
+51 silly idealTree   ├── balanced-match@1.0.0
+51 silly idealTree   ├── brace-expansion@1.1.11
+51 silly idealTree   ├── commander@2.13.0
+51 silly idealTree   ├── concat-map@0.0.1
+51 silly idealTree   ├── ejs@2.5.7
+51 silly idealTree   ├── minimatch@3.0.4
+51 silly idealTree   ├── minimist@0.0.8
+51 silly idealTree   ├── mkdirp@0.5.1
+51 silly idealTree   └── sorted-object@2.0.1
+52 silly install generateActionsToTake
+53 warn checkPermissions Missing write access to /usr/lib/node_modules
+54 timing stage:rollbackFailedOptional Completed in 1ms
+55 timing stage:runTopLevelLifecycles Completed in 5502ms
+56 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules'
+57 verbose cwd /home/teamlynnette7238
+58 verbose Linux 4.4.0-17763-Microsoft
+59 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "express-generator" "-g"
+60 verbose node v10.15.2
+61 verbose npm  v6.4.1
+62 error path /usr/lib/node_modules
+63 error code EACCES
+64 error errno -13
+65 error syscall access
+66 error Error: EACCES: permission denied, access '/usr/lib/node_modules'
+66 error  { [Error: EACCES: permission denied, access '/usr/lib/node_modules']
+66 error   stack:
+66 error    'Error: EACCES: permission denied, access \'/usr/lib/node_modules\'',
+66 error   errno: -13,
+66 error   code: 'EACCES',
+66 error   syscall: 'access',
+66 error   path: '/usr/lib/node_modules' }
+67 error The operation was rejected by your operating system.
+67 error It is likely you do not have the permissions to access this file as the current user
+67 error
+67 error If you believe this might be a permissions issue, please double-check the
+67 error permissions of the file and its containing directories, or try running
+67 error the command again as root/Administrator (though this is not recommended).
+68 verbose exit [ -13, true ]
